@@ -96,11 +96,11 @@ void accessAggregate(){
         //System.out.println(inputLine);
         String marker = "Data: ";
           int index = inputLine.indexOf(marker);
-          if(index!=-1){
-            finalLine = inputLine.substring(index+marker.length());
+          //if(index!=-1){
+            finalLine = inputLine;//inputLine.substring(index+marker.length());
             print(finalLine);
             break;
-          }
+         // }
       }
           
       in.close();
